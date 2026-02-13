@@ -9,6 +9,7 @@ import RecipeDetails from './components/RecipeDetails';
 import SearchBar from './components/SearchBar';
 import FavoritesList from './components/FavoritesList';
 import RecommendationsList from './components/RecommendationsList';
+import recipeStore from './components/recipeStore';
 
 const App = () => {
   
@@ -51,6 +52,7 @@ function App() {
               <RecipeList />
               <FavoritesList />
               <RecommendationsList />
+              <recipeStore />
             </>
           }
         />
