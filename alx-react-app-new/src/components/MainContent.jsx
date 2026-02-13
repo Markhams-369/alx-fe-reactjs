@@ -3,7 +3,7 @@ function MainContent() {
     <main
       style={{
         backgroundColor: 'teal',
-        color: 'white',
+        color: 'blue',
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'center',

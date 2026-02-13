@@ -8,6 +8,7 @@ import MainContent from './components/MainContent';
 import Footer from './components/Footer';
 import ProfilePage from './components/ProfilePage';
 import UserContext from './components/UserContext';
+import UserProfile from './components/UserProfile';
 
 
 function App() {

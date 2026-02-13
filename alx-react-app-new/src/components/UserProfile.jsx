@@ -1,13 +1,14 @@
 const UserProfile = (props) => {
   return (
     <div 
-       style={{
+        style={{
         border: '2px teal solid',
         padding: '15px',
         margin: '20px',
         borderRadius: '8px',
-        backgroundColor: '#152630'
-       }}
+        backgroundColor: '#152630',
+        color: 'blue'
+        }}
     >
       <h2 style={{ color: 'teal', marginBottom: '10px' }}>
         {props.name}
