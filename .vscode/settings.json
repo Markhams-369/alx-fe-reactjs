@@ -1,5 +1,6 @@
 {
     "workbench.colorCustomizations": {
+        
         "titleBar.activeBackground": "#3d075a",
         "titleBar.activeForeground": "#ffffff",
         "titleBar.inactiveBackground": "#3d075a",
@@ -32,5 +33,6 @@
         "statusBar.prominentHoverBackground": "#3d075a",
         "statusBar.prominentHoverForeground": "#ffffff90"
     },
-    "window.title": "c:\\Users\\tboit\\alx-fe-reactjs"
+    "window.title": "c:\\Users\\tboit\\alx-fe-reactjs",
+    "DockerRun.DisableDockerrc": false
 }

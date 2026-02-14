@@ -1,21 +1,33 @@
 import { useState } from 'react'
+import { useEffect } from "react";
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+
 import AddRecipeForm from './components/AddRecipeForm';
 import RecipeList from './components/RecipeList';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, Link } from 'react-router-dom';
 import RecipeDetails from './components/RecipeDetails';
 import SearchBar from './components/SearchBar';
 import FavoritesList from './components/FavoritesList';
 import RecommendationsList from './components/RecommendationsList';
-import recipeStore from './components/recipeStore';
+import { useRecipeStore } from './components/recipeStore';
 
-const App = () => {
   
 
 function App() {
   const [count, setCount] = useState(0)
+  const setRecipes = useRecipeStore((state) => state.setRecipes);
+
+    useEffect(() => {
+      const initialRecipes = [
+        { id: 1, title: "Spaghetti Bolognese", description: "Classic Italian pasta dish" },
+        { id: 2, title: "Chicken Curry", description: "Spicy and flavorful curry" },
+        { id: 3, title: "Greek Salad", description: "Fresh and healthy salad" },
+      ];
+
+    setRecipes(initialRecipes);
+  }, [setRecipes]);
 
   return (
     <>
@@ -41,6 +53,10 @@ function App() {
       </p>
         <div style={{ padding: '2rem', maxWidth: '700px', margin: '0 auto' }}>
       <h1>Recipe Sharing App</h1>
+      <nav style={{ marginBottom: "20px" }}>
+        <Link to="/favorites">Favorites</Link> |{" "}
+        <Link to="/recommendations">Recommendations</Link>
+      </nav>
 
       <Routes>
         <Route
@@ -50,17 +66,16 @@ function App() {
               <SearchBar />
               <AddRecipeForm />
               <RecipeList />
-              <FavoritesList />
-              <RecommendationsList />
-              <recipeStore />
             </>
           }
         />
         <Route path="/recipes/:id" element={<RecipeDetails />} />
+        <Route path="/favorites" element={<FavoritesList />} />
+        <Route path="/recommendations" element={<RecommendationsList />} />
       </Routes>
     </div>
     </>
   )
-}}
+}
 
 export default App;
