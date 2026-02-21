@@ -1,0 +1,20 @@
+/* src/App.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9fafb;
+  margin: 0;
+}
+
+.App {
+  min-height: 100vh;
+}
+
+input:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.3);
+}
+
+button:focus {
+  outline: none;
+}

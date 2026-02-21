@@ -1,39 +1,70 @@
 {
-    "workbench.colorCustomizations": {
-
-        "titleBar.activeBackground": "#02162bfb",
-        "titleBar.activeForeground": "#10c0f6",
-        "titleBar.inactiveBackground": "#282c2f",
-        "titleBar.inactiveForeground": "#0b0124f3",
-        "activityBar.background": "#1d023b",
-        "activityBar.foreground": "#022952",
-        "activityBar.activeBorder": "#05a46c",
-        "activityBar.inactiveForeground": "#02bbac90",
-        "activityBarBadge.foreground": "#000000",
-        "activityBarBadge.background": "#02bbac",
-        "statusBarItem.warningBackground": "#f30823",
-        "statusBarItem.warningForeground": "#ffffff",
-        "statusBarItem.warningHoverBackground": "#3d075a",
-        "statusBarItem.warningHoverForeground": "#ffffff90",
-        "statusBarItem.remoteBackground": "#4a1467",
-        "statusBarItem.remoteForeground": "#ffffff",
-        "statusBarItem.remoteHoverBackground": "#02c847",
-        "statusBarItem.remoteHoverForeground": "#05084be3",
-        "statusBar.background": "#021153ba",
-        "statusBar.foreground": "#ffffff",
-        "statusBar.border": "#e80606",
-        "statusBar.debuggingBackground": "#3d075a",
-        "statusBar.debuggingForeground": "#ffffff",
-        "statusBar.debuggingBorder": "#3d075a",
-        "statusBar.noFolderBackground": "#3d075a",
-        "statusBar.noFolderForeground": "#ffffff",
-        "statusBar.noFolderBorder": "#b704c1",
-        "statusBar.prominentBackground": "#3d075a",
-        "statusBar.prominentForeground": "#ffffff",
-        "statusBar.prominentHoverBackground": "#10008f3",
-        "statusBar.prominentHoverForeground": "#ffffff90"
-    },
-    "window.title": "c:\\Users\\tboit\\alx-fe-reactjs",
-    "DockerRun.DisableDockerrc": false,
-    "prettier.prettierPath": "./node_modules/prettier"
+  "workbench.colorCustomizations": {
+    "titleBar.activeBackground": "#002843f6",
+    "titleBar.activeForeground": "#43fd937f",
+    "titleBar.inactiveBackground": "#130140f6",
+    "titleBar.inactiveForeground": "#0fa697f3",
+    "activityBar.background": "#000b30",
+    "activityBar.foreground": "#001a35",
+    "activityBar.activeBorder": "#004364",
+    "activityBar.inactiveForeground": "#b500dd90",
+    "activityBarBadge.foreground": "#2c023f94",
+    "activityBarBadge.background": "#03e7db",
+    "statusBarItem.warningBackground": "#f308df",
+    "statusBarItem.warningForeground": "#7ef607",
+    "statusBarItem.warningHoverBackground": "#e00606",
+    "statusBarItem.warningHoverForeground": "#022957ed",
+    "statusBarItem.remoteBackground": "#158fec",
+    "statusBarItem.remoteForeground": "#1e0135",
+    "statusBarItem.remoteHoverBackground": "#014a64f7",
+    "statusBarItem.remoteHoverForeground": "#08f0e5e3",
+    "statusBar.background": "#02173b",
+    "statusBar.foreground": "#0cff18",
+    "statusBar.border": "#4ae806",
+    "statusBar.debuggingBackground": "#3469e4",
+    "statusBar.debuggingForeground": "#ffffff",
+    "statusBar.debuggingBorder": "#3d075a",
+    "statusBar.noFolderBackground": "#3d075a",
+    "statusBar.noFolderForeground": "#06cfdd",
+    "statusBar.noFolderBorder": "#9b04c1",
+    "statusBar.prominentBackground": "#014a64f7",
+    "statusBar.prominentForeground": "#ffffff",
+    "statusBar.prominentHoverBackground": "#022957ed",
+    "statusBar.prominentHoverForeground": "#ffffff90"
+  },
+  "window.title": "c:\\Users\\tboit\\alx-fe-reactjs",
+  "DockerRun.DisableDockerrc": false,
+  "prettier.prettierPath": "./node_modules/prettier",
+  "python.terminal.activateEnvInCurrentTerminal": true,
+  "python.terminal.useEnvFile": true,
+  "redHatDependencyAnalytics.usePythonVirtualEnvironment": true,
+  "redHatDependencyAnalytics.enablePythonBestEffortsInstallation": true,
+  "python.analysis.enableTroubleshootMissingImports": true,
+  "terminal.integrated.env.linux": {},
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "workbench.colorTheme": "One Dark Pro Night Flat",
+  "editor.lineHeight": 1.4,
+  "accessibility.signals.positionHasError": {
+    "sound": "off"
+  },
+  "accessibility.signals.positionHasWarning": {
+    "sound": "off"
+  },
+  "accessibility.signals.lineHasWarning": {
+    "sound": "off"
+  },
+  "accessibility.signals.lineHasInlineSuggestion": {
+    "sound": "off"
+  },
+  "accessibility.signals.lineHasError": {
+    "sound": "off"
+  },
+  "accessibility.signals.lineHasBreakpoint": {
+    "sound": "off"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.renderWhitespace": "none",
+  "github.copilot.nextEditSuggestions.allowWhitespaceOnlyChanges": false,
+  "github.copilot.nextEditSuggestions.enabled": false,
+  "cSpell.words": ["njsproj", "ntvs"]
 }
