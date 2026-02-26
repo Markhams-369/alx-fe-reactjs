@@ -42,7 +42,7 @@
   "python.analysis.enableTroubleshootMissingImports": true,
   "terminal.integrated.env.linux": {},
   "terminal.integrated.defaultProfile.linux": "zsh",
-  "workbench.colorTheme": "One Dark Pro Night Flat",
+  "workbench.colorTheme": "Bearded Theme feat. Gold D Raynh",
   "editor.lineHeight": 1.4,
   "accessibility.signals.positionHasError": {
     "sound": "off"
@@ -66,5 +66,6 @@
   "editor.renderWhitespace": "none",
   "github.copilot.nextEditSuggestions.allowWhitespaceOnlyChanges": false,
   "github.copilot.nextEditSuggestions.enabled": false,
-  "cSpell.words": ["njsproj", "ntvs"]
+  "cSpell.words": ["Avenir", "njsproj", "ntvs"],
+  "xml.server.silenceExtensionWarning": true
 }

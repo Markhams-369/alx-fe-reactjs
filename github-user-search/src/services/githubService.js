@@ -18,6 +18,7 @@ export async function fetchUserData(
             },
         },
     );
+    
 
     return response.data;
 }
