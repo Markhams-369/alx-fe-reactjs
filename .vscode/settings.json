@@ -67,5 +67,7 @@
   "github.copilot.nextEditSuggestions.allowWhitespaceOnlyChanges": false,
   "github.copilot.nextEditSuggestions.enabled": false,
   "cSpell.words": ["Avenir", "njsproj", "ntvs"],
-  "xml.server.silenceExtensionWarning": true
+  "xml.server.silenceExtensionWarning": true,
+  "css.lint.unknownAtRules": "ignore",
+  "scss.lint.unknownAtRules": "ignore"
 }
