@@ -66,7 +66,7 @@
   "editor.renderWhitespace": "none",
   "github.copilot.nextEditSuggestions.allowWhitespaceOnlyChanges": false,
   "github.copilot.nextEditSuggestions.enabled": false,
-  "cSpell.words": ["Avenir", "njsproj", "ntvs"],
+  "cSpell.words": ["Avenir", "njsproj", "ntvs", "reactjs"],
   "xml.server.silenceExtensionWarning": true,
   "css.lint.unknownAtRules": "ignore",
   "scss.lint.unknownAtRules": "ignore",
